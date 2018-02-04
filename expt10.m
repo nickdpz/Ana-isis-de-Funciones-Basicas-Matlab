@@ -1,5 +1,5 @@
 
-figure('Name','Autor Nicolas David Pastran','NumberTitle','off','Color','white','position',[250 200 850 400]);    
+fig=figure('Name','Autor Nicolas David Pastran','NumberTitle','off','Color','white','position',[250 200 850 400]);    
 cla('reset')
 t = linspace(-10,60);
 x = 1*exp(-0.1*t);
@@ -31,5 +31,4 @@ ax.XGrid = 'on';
 ax.YGrid = 'on';
 ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
-
-ax.Layer = 'top';
+print(fig,'expt10','-dpng');
