@@ -1,5 +1,5 @@
 
-figure('Name','Autor Nicolas David Pastran','NumberTitle','off','Color','white','position',[250 200 850 400]);    
+fig=figure('Name','Autor Nicolas David Pastran','NumberTitle','off','Color','white','position',[250 200 850 400]);    
 cla('reset')
 t = linspace(-2*pi,2*pi);
 x = sin(t-10);
@@ -22,10 +22,10 @@ p(4).Color = 'black';
 p(4).Marker='o';
 p(4).MarkerSize=10;
 
-title('Sen (t-10)','Fontsize',16,'FontName','FixedWidth');
+title('x(t) = sen(t-10)','Fontsize',16,'FontName','FixedWidth');
 xlabel('t');
 ylabel('x(t)');
-legend('x(t)=sen(t-10)','Maximos','Minimos','Periodo 2 \pi','Location','northeastoutside');
+legend('x(t)= sen(t-10)','Maximos','Minimos','Periodo 2 \pi','Location','northeastoutside');
 legend('boxoff');
 ax = gca;
 ax.Legend.TextColor = 'blue';
@@ -42,5 +42,4 @@ ax.XGrid = 'on';
 ax.YGrid = 'on';
 ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
-
-ax.Layer = 'top';
+print(fig,'sin','-dpng');
