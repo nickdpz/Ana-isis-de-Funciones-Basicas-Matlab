@@ -12,10 +12,10 @@ p(1).Color = 'blue';
 p(2).Color = 'red';
 p(2).LineStyle = '--';
 
-title('x(t) = e^{-t} Sen (t)','Fontsize',16,'FontName','FixedWidth');
+title('x(t) = e^{-t} Cos (t)','Fontsize',16,'FontName','FixedWidth');
 xlabel('t');
 ylabel('x(t)');
-legend('x(t) = e^{-t} Sen (t)','Asintota en 0','Location','northeastoutside');
+legend('x(t) = e^{-t} Cos(t)','Asintota en 0','Location','northeastoutside');
 legend('boxoff');
 ax = gca;
 ax.Legend.TextColor = 'blue';
