@@ -1,5 +1,5 @@
 
-fig=figure('Name','Autor Nicolas David Pastran','NumberTitle','off','Color','white','position',[250 200 850 400]);    
+fig=figure('Name','Autor Nicolas David Pastran','NumberTitle','off','Color','white','position',[250 200 850 400]);       
 cla('reset')
 t = -5:0.01:10;
 x = cos(t).*(exp(-t));
