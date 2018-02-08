@@ -36,3 +36,5 @@ ax.GridLineStyle = '--';
 ax.GridColor = [0 0 0];
 
 ax.Layer = 'top';
+
+print(fig,'exp4n','-dpng');
