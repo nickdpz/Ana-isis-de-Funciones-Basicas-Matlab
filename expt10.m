@@ -8,7 +8,7 @@ p=plot(t,x,t,x1);
 p(1).LineWidth = 2;
 p(2).LineWidth = 2;
 
-p(1).Color = 'blue';
+p(1).Color = 'blue';%Se pone el color azul en la grafica principal
 p(2).Color = 'red';
 p(2).LineStyle = '--';
 p(2).Color = 'black';
